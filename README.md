@@ -10,6 +10,7 @@
 
 </div>
 
+[![Full Stack](https://img.shields.io/badge/Full_Stack-20232A?style=for-the-badge&logo=webcomponents.org&logoColor=61DAFB)](#)
 [![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Node.js](https://img.shields.io/badge/Node.js_18+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
@@ -214,6 +215,13 @@ rt-collaborative-doc-editor-fs3/
     └── api-docs/
         ├── rest-api.md
         └── socket-events.md
+├─ .gitignore
+├─ FIREBASE_SETUP.md
+├─ package-lock.json
+├─ package.json
+├─ PROJECT_COMPLETION.md
+├─ QUICKSTART.md
+└─ README.md
 ```
 
 ---
@@ -493,23 +501,6 @@ FIREBASE_PRIVATE_KEY=...
 
 ---
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-```bash
-# 1. Fork the repository
-# 2. Create your feature branch
-git checkout -b feature/amazing-feature
-
-# 3. Commit your changes
-git commit -m "feat: add amazing feature"
-
-# 4. Push to the branch
-git push origin feature/amazing-feature
-
-# 5. Open a Pull Request
-```
 
 ### Commit Convention
 
