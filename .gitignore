@@ -46,3 +46,6 @@ firebase-service-account.json
 .cache/
 .temp/
 tmp/
+
+
+server/src/config/firebase-service-account.json
