@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+.light {
+  --surface: #f8fafc;
+  --surface-elevated: #ffffff;
+  --surface-muted: #f1f5f9;
+  --border: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+}
+
+.dark {
+  --surface: #0b1120;
+  --surface-elevated: #111827;
+  --surface-muted: #1e293b;
+  --border: #1e293b;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+}
+
+@layer base {
+  html {
+    @apply antialiased scroll-smooth;
+  }
+
+  body {
+    @apply bg-surface text-[var(--text-primary)] font-sans;
+    background-color: var(--surface);
+  }
+}
+
+@layer components {
+  .bg-surface {
+    background-color: var(--surface);
+  }
+
+  .bg-surface-elevated {
+    background-color: var(--surface-elevated);
+  }
+
+  .bg-surface-muted {
+    background-color: var(--surface-muted);
+  }
+
+  .prose-editor .ProseMirror {
+    @apply outline-none min-h-[50vh] text-[var(--text-primary)];
+  }
+
+  .prose-editor .ProseMirror p {
+    @apply mb-3 leading-relaxed;
+  }
+
+  .prose-editor .ProseMirror h1 {
+    @apply text-3xl font-bold mb-4 mt-6;
+  }
+
+  .prose-editor .ProseMirror h2 {
+    @apply text-2xl font-semibold mb-3 mt-5;
+  }
+
+  .prose-editor .ProseMirror ul {
+    @apply list-disc pl-6 mb-3;
+  }
+
+  .prose-editor .ProseMirror ol {
+    @apply list-decimal pl-6 mb-3;
+  }
+
+  .prose-editor .ProseMirror a {
+    @apply text-brand-600 underline;
+  }
+
+  .prose-editor .ProseMirror p.is-editor-empty:first-child::before {
+    @apply text-[var(--text-muted)] float-left h-0 pointer-events-none;
+    content: attr(data-placeholder);
+  }
+}
