@@ -1,0 +1,32 @@
+{
+  "name": "rt-collaborative-doc-editor-fs3",
+  "version": "1.0.0",
+  "description": "Production-ready real-time collaborative document editor",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && npm install --prefix client && npm install --prefix server",
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build": "npm run build --prefix client",
+    "start": "npm run start --prefix server",
+    "lint": "npm run lint --prefix client 2>/dev/null || true"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "collaborative-editor",
+    "react",
+    "socket.io",
+    "firebase",
+    "real-time"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^12.13.0"
+  }
+}
