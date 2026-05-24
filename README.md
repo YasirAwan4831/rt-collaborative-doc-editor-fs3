@@ -1,12 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Real Time%20Collaborative%20Document%20Editor&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Real-Time%20%7C%20Full-Stack%20%7C%20Firebase%20Powered&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Real-Time%20Collaborative%20Document%20Editor&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Real-Time%20%7C%20Full-Stack%20%7C%20Firebase%20Powered&descAlignY=55&descSize=18" width="100%"/>
 
 <br/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&duration=2500&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Real-Time+Collaborative+Document+Editor;Built+with+React+%2B+Node.js+%2B+Socket.io;Firebase+Powered+Cloud+Collaboration;Production-Ready+SaaS+Workspace;Internship+Project+FS3+%E2%80%94+TEYZIX+CORE" alt="Typing SVG" />
 
 <br/><br/>
+
+</div>
 
 [![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
