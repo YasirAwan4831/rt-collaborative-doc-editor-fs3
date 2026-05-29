@@ -48,15 +48,32 @@
 | 📅 **Assigned Date** | 21st May 2026 |
 | ⏳ **Submission Deadline** | 30th May 2026 |
 | 🏢 **Organization** | TEYZIX CORE |
-| 👨‍💻 **Developer** | Muhammad Yasir |
+| 👨‍💻 **Developer** | [Muhammad Yasir](https://yasirawan4831.github.io/futuristic-links-dashboard/) |
 
 </div>
 
 ---
 
-## 🎯 Project Overview
+## 📖 About Project
 
-Modern remote teams depend on **real-time collaborative productivity platforms**. This project delivers an internally managed, scalable collaborative workspace capable of handling **concurrent editing sessions** with synchronization consistency, presence tracking, and a polished SaaS-level UX.
+A **full-stack real-time collaborative document editor** built with React, Node.js, Express, Socket.io and Firebase. It allows multiple users to edit documents simultaneously with **live synchronization**, secure authentication, role-based access and real-time user presence tracking for a smooth collaborative experience.
+
+Built with scalability and modern productivity in mind, the platform delivers a clean **SaaS-style workspace** with fast performance and seamless team collaboration.
+
+## 📝 Articles & Blogs
+
+* 📄 [Building a Real-Time Collaborative Editor](https://medium.com/@YasirAwan4831/building-a-modern-real-time-collaborative-document-editor-full-stack-engineering-journey-44d46c6c4cad)
+* ⚡ [Building a Modern Real-Time Collaborative Document Editor](https://coderlegion.com/19196/building-modern-real-time-collaborative-document-editor-full-stack-engineering-journey)
+
+---
+
+## 👀 Project Overview
+
+This project showcases a modern collaborative workspace designed for remote teams and productivity-focused environments. It combines **real-time communication**, concurrent editing, and responsive UI/UX to create a smooth and interactive editing experience.
+
+The system demonstrates practical implementation of WebSockets, authentication workflows, and scalable backend architecture inspired by modern collaboration platforms.
+
+
 
 ### 🧠 Problem Statement
 
